@@ -8,6 +8,10 @@ on:
     branches: [ "master" ]
   schedule:
     - cron: '28 11 * * 5'
+    
+defaults:
+ run:
+  working-directory: ./app-react
 
 permissions:
   contents: read
