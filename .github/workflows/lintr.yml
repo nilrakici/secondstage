@@ -1,13 +1,3 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-# lintr provides static code analysis for R.
-# It checks for adherence to a given style,
-# identifying syntax errors and possible semantic issues,
-# then reports them to you so you can take action.
-# More details at https://lintr.r-lib.org/
-
 name: lintr
 
 on:
